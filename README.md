@@ -1,5 +1,8 @@
 # Hello, OpenGL
-I'm trying out OpenGL, let's go
+I'm trying out OpenGL, let's go. Note that this is a **barebones** project, as such it does not include any actual gameplay and you will have to add it yourself.
+
+### Graphics
+Graphics?! Well I don't have much graphics wrapper functions to show you, there's DrawQuad which takes 4 colors (`struct Color`), and there's DrawTexturedQuad which takes in a `TextureHandle` (just an index into an array of `GLuint`s). I haven't even implemented functions to draw text yet, sadly.
 
 ### Build
 To build, you need to either:
